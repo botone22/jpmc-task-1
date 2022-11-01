@@ -30,7 +30,6 @@ from datetime import timedelta, datetime
 # from itertools import izip
 from random import normalvariate, random
 from socketserver import ThreadingMixIn
-
 import dateutil.parser
 
 ################################################################################
@@ -38,7 +37,6 @@ import dateutil.parser
 # Config
 
 # Sim params
-
 REALTIME = True
 SIM_LENGTH = timedelta(days=365 * 5)
 MARKET_OPEN = datetime.today().replace(hour=0, minute=30, second=0)
